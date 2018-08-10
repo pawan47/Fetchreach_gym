@@ -238,6 +238,7 @@ for ii in range(max_ep):
         a += noice()
         #print(a)
         a=a[0]
+        #env.render()
         s2,r,d,info=env.step(a)
         #print(s2)
         #s2=s2[np.newaxis, :]
